@@ -1,0 +1,48 @@
+#root {
+  font-family: sans-serif;
+  margin-top: 5vh;
+  margin-left: 10vw;
+}
+
+.header {
+  background-color: rgb(247, 230, 191);
+  height: 5vh;
+  margin-bottom: 5vh;
+  padding-left: 3vw;
+  line-height: 5vh;
+  width: 80vw;
+  min-width: 460px;
+}
+
+p {
+  display: inline;
+  margin-left: 2vw;
+}
+
+label {
+  display: block;
+  margin-bottom: 2vh;
+}
+
+input {
+  margin-right: 2vw;
+}
+
+input:checked {
+  accent-color: green;
+}
+
+button {
+  margin-top: 3vh;
+  width: 80vw;
+  height: 36px;
+  background-color: white;
+  color: green;
+  font-size: 16px;
+  border: green 2px solid;
+  min-width: 460px;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
